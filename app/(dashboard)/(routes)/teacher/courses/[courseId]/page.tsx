@@ -57,7 +57,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
     course.imageUrl,
     course.price,
     course.categoryId,
-    course.chapters.some((chapter) => chapter.isPublised),
+    course.chapters.some((chapter: any) => chapter.isPublised),
   ];
 
   const totalFields = requiredFields.length;
@@ -94,7 +94,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
             <DescriptionForm initialData={course} courseId={course.id} />
             <ImageForm initialData={course} courseId={course.id} />
             <CategoryForm
-              options={categories.map((category) => ({
+              options={categories.map((category: any) => ({
                 label: category.name,
                 value: category.id,
               }))}

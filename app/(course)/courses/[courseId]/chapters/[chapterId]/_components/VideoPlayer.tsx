@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils";
 import { useConfettiStore } from "@/hooks/use-confetti-store";
 
 interface VideoPlayerProps {
-  videoUrl: string;
+  videoUrl: string | null;
   chapterId: string;
-  playbackId: string;
+  playbackId: string | null;
   courseId: string;
   nextChapterId?: string;
   isLocked: boolean;

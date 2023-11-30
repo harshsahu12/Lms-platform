@@ -33,7 +33,7 @@ export async function PATCH(
     }
 
     const hasPublishedChapter = course.chapters.some(
-      (chapter) => chapter.isPublised
+      (chapter: any) => chapter.isPublised
     );
 
     if (
