@@ -29,7 +29,7 @@ export async function DELETE(
       },
     });
 
-    return new NextResponse(attachment);
+    return NextResponse.json(attachment);
   } catch (error) {
     console.log("ATTACHMENT_ID", error);
     return new NextResponse("Internal Error: ", { status: 500 });

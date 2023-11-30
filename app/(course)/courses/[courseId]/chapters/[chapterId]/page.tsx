@@ -55,11 +55,11 @@ const ChapterPageId = async ({
         <div className="p-4">
           <VideoPlayer
             chapterId={chapter.id}
-            videoUrl={chapter.videoUrl}
+            videoUrl={chapter.videoUrl || ""}
             title={chapter.title}
             courseId={params.courseId}
             nextChapterId={nextChapter?.id}
-            playbackId={muxData?.playbackId}
+            playbackId={muxData?.playbackId || ""}
             isLocked={isLocked}
             completeOnEnd={completeOnEnd}
           />
@@ -77,7 +77,7 @@ const ChapterPageId = async ({
             ) : (
               <CourseEnrollButton
                 courseId={params.courseId}
-                price={course.price}
+                price={course.price || 0}
               />
             )}
           </div>

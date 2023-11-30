@@ -45,7 +45,7 @@ export async function POST(
       }
     });
 
-    return new NextResponse(chapter);
+    return NextResponse.json(chapter);
   } catch (error) {
     console.log("[CHAPTERS]", error);
     return new NextResponse("Internal Error", { status: 500 });

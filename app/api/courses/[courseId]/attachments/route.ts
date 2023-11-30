@@ -33,7 +33,7 @@ export async function POST(
       },
     });
 
-    return new NextResponse(attachments);
+    return NextResponse.json(attachments);
     
   } catch (error) {
     console.log("COURSE_ID_ATTACHMENTS", error);
