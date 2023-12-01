@@ -4,16 +4,8 @@ type GlobalWithPrisma = typeof globalThis & {
   prisma?: PrismaClient;
 };
 
-export const db =
-  (globalThis as GlobalWithPrisma).prisma ||
-  new PrismaClient({
-    datasources: {
-      db: {
-        url: process.env.DATABASE_URL,
-      },
-    },
-  });
+export const db = (globalThis as GlobalWithPrisma).prisma || new PrismaClient();
 
-if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV === "production") {
   (globalThis as GlobalWithPrisma).prisma = db;
 }

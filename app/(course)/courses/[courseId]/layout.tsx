@@ -17,7 +17,7 @@ const CourseLayout = async ({
   if (!userId) {
     return redirect("/");
   }
-
+  
   const course = await db.course.findUnique({
     where: {
       id: params.courseId,
