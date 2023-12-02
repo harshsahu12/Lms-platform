@@ -25,12 +25,12 @@
 
 ## Technologies Used
 
-   Next.js: A React framework for building robust and efficient web applications.
-   MySQL: A reliable and scalable relational database management system.
-   Prisma: Modern database toolkit for Node.js and TypeScript.
-   Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.
-   Clerk: Authentication and authorization solution for Next.js applications.
-   Stripe: Payment processing platform for secure and smooth transactions.
+   - Next.js: A React framework for building robust and efficient web applications.
+   - MySQL: A reliable and scalable relational database management system.
+   - Prisma: Modern database toolkit for Node.js and TypeScript.
+   - Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.
+   - Clerk: Authentication and authorization solution for Next.js applications.
+   - Stripe: Payment processing platform for secure and smooth transactions.
 
 ## Getting Started
 To run LearnHub locally, follow these steps:
