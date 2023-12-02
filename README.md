@@ -3,6 +3,7 @@
 ### LearnHub is an innovative Learning Management System that empowers both students and teachers. It allows students to explore, purchase, and learn from a variety of courses, while teachers can create and manage their courses seamlessly. With robust features and a user-friendly interface, LearnHub is designed to enhance the online learning experience.
 
 ## Features
+
    1. Authentication and Authorization
        Secure user authentication powered by Clerk for a seamless login and signup experience.
        Role-based authorization to distinguish between students, teachers, and administrators.
@@ -23,27 +24,25 @@
        Responsive design for seamless accessibility across various devices.
 
 ## Technologies Used
-Next.js: A React framework for building robust and efficient web applications.
-MySQL: A reliable and scalable relational database management system.
-Prisma: Modern database toolkit for Node.js and TypeScript.
-Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.
-Clerk: Authentication and authorization solution for Next.js applications.
-Stripe: Payment processing platform for secure and smooth transactions.
+
+   Next.js: A React framework for building robust and efficient web applications.
+   MySQL: A reliable and scalable relational database management system.
+   Prisma: Modern database toolkit for Node.js and TypeScript.
+   Tailwind CSS: A utility-first CSS framework for building modern and responsive designs.
+   Clerk: Authentication and authorization solution for Next.js applications.
+   Stripe: Payment processing platform for secure and smooth transactions.
 
 ## Getting Started
 To run LearnHub locally, follow these steps:
 
 ## Clone the repository:
 
-    ```bash
     git clone https://github.com/your-username/learnhub.git
 
 ## Install dependencies:
 
-    ```bash
     cd learnhub
 
-    ```bash
     npm install
     
 ## Set up environment variables:
