@@ -2,6 +2,8 @@
 
 ### LearnHub is an innovative Learning Management System that empowers both students and teachers. It allows students to explore, purchase, and learn from a variety of courses, while teachers can create and manage their courses seamlessly. With robust features and a user-friendly interface, LearnHub is designed to enhance the online learning experience.
 
+ <img src="https://github.com/harshsahu12/Lms-platform/assets/129574323/112dfd77-6254-4c21-b40a-a8e3d5d128ac" width=800 />
+ 
 ## Features
 
    1. Authentication and Authorization
@@ -37,7 +39,7 @@ To run LearnHub locally, follow these steps:
 
 ## Clone the repository:
 
-    git clone https://github.com/your-username/learnhub.git
+    git clone https://github.com/harshsahu12/learnhub.git
 
 ## Install dependencies:
 
@@ -51,7 +53,6 @@ To run LearnHub locally, follow these steps:
   
 ## Run the application:
 
-    ```bash
     npm run dev
     
   - Visit http://localhost:3000 in your browser to explore LearnHub locally.
